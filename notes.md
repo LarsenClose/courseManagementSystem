@@ -85,3 +85,13 @@ rails db:migrate
 
 Then update controllers.rb and models.rb for both
 
+---
+class Section < ApplicationRecord
+  belongs_to :course
+  belongs_to :professor
+  belongs_to :semester
+end
+---
+class Course < ApplicationRecord
+  belongs_to :department
+end
