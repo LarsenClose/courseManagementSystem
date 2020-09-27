@@ -18,7 +18,7 @@
 
   <div class="field">
     <%= form.label :professor_id %>
-    <%= form.number_field :professor_id %>
+    <%= form.collection_select  :professor_id, Professor.all, :id, :name %>
   </div>
 
   <div class="field">
@@ -28,7 +28,7 @@
 
   <div class="field">
     <%= form.label :semester_id %>
-    <%= form.number_field :semester_id %>
+    <%= form.collection_select  :semester_id, Semester.all, :id, :name %>
   </div>
 
   <div class="actions">

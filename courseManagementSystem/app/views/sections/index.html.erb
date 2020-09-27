@@ -17,9 +17,9 @@
     <% @sections.each do |section| %>
       <tr>
         <td><%= section.course_id %></td>
-        <td><%= section.professor_id %></td>
+        <td><%= section.professor.name %></td>
         <td><%= section.year %></td>
-        <td><%= section.semester_id %></td>
+        <td><%= section.semester.name %></td>
         <td><%= link_to 'Show', section %></td>
         <td><%= link_to 'Edit', edit_section_path(section) %></td>
         <td><%= link_to 'Destroy', section, method: :delete, data: { confirm: 'Are you sure?' } %></td>

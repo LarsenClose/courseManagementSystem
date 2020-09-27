@@ -7,3 +7,9 @@
 
 <%= link_to 'Edit', edit_department_path(@department) %> |
 <%= link_to 'Back', departments_path %>
+
+<ol>
+  <% @department.courses.each do |course| %>
+    <li> <%= course.name %>
+  <% end %>
+</ol>

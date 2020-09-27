@@ -16,7 +16,15 @@
     <%= form.text_field :name %>
   </div>
 
+
   <div class="actions">
     <%= form.submit %>
   </div>
+
+  <ol>
+  <% @department.sections.each do |section| %>
+    <li> <%= section.name %>
+  <% end %>
+  </ol>
+
 <% end %>
