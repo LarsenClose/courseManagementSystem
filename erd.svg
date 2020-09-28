@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 1306.6667 842.66669"
+   height="842.66669"
+   width="1306.6667"
+   xml:space="preserve"
+   id="svg3748"
+   version="1.1"><metadata
+     id="metadata3754"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs3752" /><g
+     transform="matrix(1.3333333,0,0,1.3333333,0,2.44e-5)"
+     id="g3756"><g
+       id="g3758"><text
+         id="text3762"
+         style="font-variant:normal;font-weight:bold;font-size:12.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(427.80078,43.199219)"><tspan
+           id="tspan3760"
+           y="0"
+           x="0 9.7498169 19.499634 29.990437 33.734367 41.976212 50.218056 61.462845 68.963707 72.694633 80.936478 84.680412 95.925201 104.16705 112.39589 119.89675">CRM domain model</tspan></text>
+<path
+         id="path3764"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 674.801,253.301 c 0,0 264,0 264,0 6,0 12,-6 12,-12 0,0 0,-64 0,-64 0,-6 -6,-12 -12,-12 0,0 -264,0 -264,0 -6,0 -12,6 -12,12 0,0 0,64 0,64 0,6 6,12 12,12" /><text
+         id="text3768"
+         style="font-variant:normal;font-weight:bold;font-size:11.00024414px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(713.30078,212.10156)"><tspan
+           id="tspan3766"
+           y="0"
+           x="0 8.2501831 14.993333 21.703482 26.224581 32.230717">Course</tspan></text>
+<path
+         id="path3770"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 806.801,253.301 v -88" /><text
+         id="text3774"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(813.80078,178.30078)"><tspan
+           id="tspan3772"
+           y="0"
+           x="0 5.2498717 8.2497988 13.499671 18.749542 21.73947 26.989342 32.239212 37.479084 42.728958 45.728886">created_at </tspan></text>
+<text
+         id="text3778"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(862.80078,178.30078)"><tspan
+           id="tspan3776"
+           y="0"
+           x="0 5.2498717 10.499743 13.489671 18.739542 21.729469 23.979414 32.229214 37.479084 40.469013 43.468941 48.718811 51.708736 56.958611">datetime (6,0)</tspan></text>
+<text
+         id="text3782"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(922.75932,178.30078)"><tspan
+           id="tspan3780"
+           y="0"
+           x="0"> </tspan></text>
+<text
+         id="text3786"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Nimbus Sans';-inkscape-font-specification:NimbusSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(923.4993,178.30078)"><tspan
+           id="tspan3784"
+           y="0"
+           x="0">∗</tspan></text>
+<text
+         id="text3790"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(813.80078,191.30078)"><tspan
+           id="tspan3788"
+           y="0"
+           x="0 5.2498717 10.499743 15.749616 20.989489 23.989414 26.989342 35.23914 40.479012 45.728886 48.728809 53.968681 56.218628 61.468498">department_id </tspan></text>
+<text
+         id="text3794"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(878.80078,191.30078)"><tspan
+           id="tspan3792"
+           y="0"
+           x="0 2.2499452 7.4998169 10.489744 15.739616 20.989489 26.229361">integer</tspan></text>
+<text
+         id="text3798"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(908.03007,191.30078)"><tspan
+           id="tspan3796"
+           y="0"
+           x="0"> </tspan></text>
+<text
+         id="text3802"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Nimbus Sans';-inkscape-font-specification:NimbusSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(908.78005,191.30078)"><tspan
+           id="tspan3800"
+           y="0"
+           x="0">∗</tspan></text>
+<text
+         id="text3806"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(921.52974,191.30078)"><tspan
+           id="tspan3804"
+           y="0"
+           x="0 5.9898539">FK</tspan></text>
+<text
+         id="text3810"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(813.80078,204.30078)"><tspan
+           id="tspan3808"
+           y="0"
+           x="0 5.2498717 10.499743 15.749616 18.749542 23.999414">hours </tspan></text>
+<text
+         id="text3814"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(841.80078,204.30078)"><tspan
+           id="tspan3812"
+           y="0"
+           x="0 2.2499452 7.4998169 10.489744 15.739616 20.989489 26.229361">integer</tspan></text>
+<text
+         id="text3818"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(813.80078,217.30078)"><tspan
+           id="tspan3816"
+           y="0"
+           x="0 2.2499452 7.4998169">id </tspan></text>
+<text
+         id="text3822"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(824.80078,217.30078)"><tspan
+           id="tspan3820"
+           y="0"
+           x="0 2.2499452 7.4998169 10.489744 15.739616 20.989489 26.229361 29.229286 32.229214 38.969048">integer PK</tspan></text>
+<text
+         id="text3826"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(813.80078,230.30078)"><tspan
+           id="tspan3824"
+           y="0"
+           x="0 5.2498717 10.499743 18.749542 23.999414 29.239286 32.239212">number </tspan></text>
+<text
+         id="text3830"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(849.80078,230.30078)"><tspan
+           id="tspan3828"
+           y="0"
+           x="0 2.2499452 7.4998169 10.489744 15.739616 20.989489 26.229361">integer</tspan></text>
+<text
+         id="text3834"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(813.80078,243.30078)"><tspan
+           id="tspan3832"
+           y="0"
+           x="0 5.2498717 10.499743 15.749616 20.989489 23.989414 29.229286 34.47916 39.729031 44.978901 47.96883">updated_at </tspan></text>
+<text
+         id="text3838"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(865.80078,243.30078)"><tspan
+           id="tspan3836"
+           y="0"
+           x="0 5.2498717 10.499743 13.489671 18.739542 21.729469 23.979414 32.229214 37.479084 40.469013 43.468941 48.718811 51.708736 56.958611">datetime (6,0)</tspan></text>
+<text
+         id="text3842"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(925.75932,243.30078)"><tspan
+           id="tspan3840"
+           y="0"
+           x="0"> </tspan></text>
+<text
+         id="text3846"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Nimbus Sans';-inkscape-font-specification:NimbusSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(926.4993,243.30078)"><tspan
+           id="tspan3844"
+           y="0"
+           x="0">∗</tspan></text>
+<path
+         id="path3848"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 357.801,404.301 c 0,0 264,0 264,0 6,0 12,-6 12,-12 0,0 0,-90 0,-90 0,-6 -6,-12 -12,-12 0,0 -264,0 -264,0 -6,0 -12,6 -12,12 0,0 0,90 0,90 0,6 6,12 12,12" /><text
+         id="text3852"
+         style="font-variant:normal;font-weight:bold;font-size:11.00024414px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(395.80078,350.10156)"><tspan
+           id="tspan3850"
+           y="0"
+           x="0 7.4911661 13.4863 19.481432 23.232515 26.224581 32.967731">Section</tspan></text>
+<path
+         id="path3854"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 489.801,404.301 v -114" /><text
+         id="text3858"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(496.80078,303.30078)"><tspan
+           id="tspan3856"
+           y="0"
+           x="0 5.2498717 10.499743 15.749616 18.749542 23.999414 29.249287 34.489159 36.739105 41.988976">course_id </tspan></text>
+<text
+         id="text3862"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(542.80078,303.30078)"><tspan
+           id="tspan3860"
+           y="0"
+           x="0 2.2499452 7.4998169 10.489744 15.739616 20.989489 26.229361">integer</tspan></text>
+<text
+         id="text3866"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(572.03007,303.30078)"><tspan
+           id="tspan3864"
+           y="0"
+           x="0"> </tspan></text>
+<text
+         id="text3870"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Nimbus Sans';-inkscape-font-specification:NimbusSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(572.78005,303.30078)"><tspan
+           id="tspan3868"
+           y="0"
+           x="0">∗</tspan></text>
+<text
+         id="text3874"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(585.52974,303.30078)"><tspan
+           id="tspan3872"
+           y="0"
+           x="0 5.9898539">FK</tspan></text>
+<text
+         id="text3878"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(496.80078,316.30078)"><tspan
+           id="tspan3876"
+           y="0"
+           x="0 5.2498717 8.2497988 13.499671 18.749542 21.73947 26.989342 32.239212 37.479084 42.728958 45.728886">created_at </tspan></text>
+<text
+         id="text3882"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(545.80078,316.30078)"><tspan
+           id="tspan3880"
+           y="0"
+           x="0 5.2498717 10.499743 13.489671 18.739542 21.729469 23.979414 32.229214 37.479084 40.469013 43.468941 48.718811 51.708736 56.958611">datetime (6,0)</tspan></text>
+<text
+         id="text3886"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(605.75932,316.30078)"><tspan
+           id="tspan3884"
+           y="0"
+           x="0"> </tspan></text>
+<text
+         id="text3890"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Nimbus Sans';-inkscape-font-specification:NimbusSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(606.4993,316.30078)"><tspan
+           id="tspan3888"
+           y="0"
+           x="0">∗</tspan></text>
+<text
+         id="text3894"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(496.80078,329.30078)"><tspan
+           id="tspan3892"
+           y="0"
+           x="0 2.2499452 7.4998169">id </tspan></text>
+<text
+         id="text3898"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(507.80078,329.30078)"><tspan
+           id="tspan3896"
+           y="0"
+           x="0 2.2499452 7.4998169 10.489744 15.739616 20.989489 26.229361 29.229286 32.229214 38.969048">integer PK</tspan></text>
+<text
+         id="text3902"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(496.80078,342.30078)"><tspan
+           id="tspan3900"
+           y="0"
+           x="0 5.2498717 8.2497988 13.499671 16.489597 21.73947 26.989342 32.239212 37.489086 40.489014 45.738884 47.958828 53.228703">professor_id </tspan></text>
+<text
+         id="text3906"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(553.80078,342.30078)"><tspan
+           id="tspan3904"
+           y="0"
+           x="0 2.2499452 7.4998169 10.489744 15.739616 20.989489 26.229361">integer</tspan></text>
+<text
+         id="text3910"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(583.03007,342.30078)"><tspan
+           id="tspan3908"
+           y="0"
+           x="0"> </tspan></text>
+<text
+         id="text3914"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Nimbus Sans';-inkscape-font-specification:NimbusSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(583.78005,342.30078)"><tspan
+           id="tspan3912"
+           y="0"
+           x="0">∗</tspan></text>
+<text
+         id="text3918"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(596.52974,342.30078)"><tspan
+           id="tspan3916"
+           y="0"
+           x="0 5.9898539">FK</tspan></text>
+<text
+         id="text3922"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(496.80078,355.30078)"><tspan
+           id="tspan3920"
+           y="0"
+           x="0 5.2498717 10.499743 18.749542 23.999414 29.249287 32.239212 37.489086 40.489014 45.738884 47.958828 53.228703">semester_id </tspan></text>
+<text
+         id="text3926"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(553.80078,355.30078)"><tspan
+           id="tspan3924"
+           y="0"
+           x="0 2.2499452 7.4998169 10.489744 15.739616 20.989489 26.229361">integer</tspan></text>
+<text
+         id="text3930"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(583.03007,355.30078)"><tspan
+           id="tspan3928"
+           y="0"
+           x="0"> </tspan></text>
+<text
+         id="text3934"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Nimbus Sans';-inkscape-font-specification:NimbusSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(583.78005,355.30078)"><tspan
+           id="tspan3932"
+           y="0"
+           x="0">∗</tspan></text>
+<text
+         id="text3938"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(596.52974,355.30078)"><tspan
+           id="tspan3936"
+           y="0"
+           x="0 5.9898539">FK</tspan></text>
+<text
+         id="text3942"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(496.80078,368.30078)"><tspan
+           id="tspan3940"
+           y="0"
+           x="0 5.2498717 8.2397985 13.489671 18.739542 23.989414 29.239286 32.229214 37.479084 42.728958 44.978901 50.218773">students_id </tspan></text>
+<text
+         id="text3946"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(550.80078,368.30078)"><tspan
+           id="tspan3944"
+           y="0"
+           x="0 2.2499452 7.4998169 10.489744 15.739616 20.989489 26.229361">integer</tspan></text>
+<text
+         id="text3950"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(496.80078,381.30078)"><tspan
+           id="tspan3948"
+           y="0"
+           x="0 5.2498717 10.499743 15.749616 20.989489 23.989414 29.229286 34.47916 39.729031 44.978901 47.96883">updated_at </tspan></text>
+<text
+         id="text3954"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(548.80078,381.30078)"><tspan
+           id="tspan3952"
+           y="0"
+           x="0 5.2498717 10.499743 13.489671 18.739542 21.729469 23.979414 32.229214 37.479084 40.469013 43.468941 48.718811 51.708736 56.958611">datetime (6,0)</tspan></text>
+<text
+         id="text3958"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(608.75932,381.30078)"><tspan
+           id="tspan3956"
+           y="0"
+           x="0"> </tspan></text>
+<text
+         id="text3962"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Nimbus Sans';-inkscape-font-specification:NimbusSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(609.4993,381.30078)"><tspan
+           id="tspan3960"
+           y="0"
+           x="0">∗</tspan></text>
+<text
+         id="text3966"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(496.80078,394.30078)"><tspan
+           id="tspan3964"
+           y="0"
+           x="0 5.2498717 10.499743 15.749616 18.749542">year </tspan></text>
+<text
+         id="text3970"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(518.80078,394.30078)"><tspan
+           id="tspan3968"
+           y="0"
+           x="0 2.2499452 7.4998169 10.489744 15.739616 20.989489 26.229361">integer</tspan></text>
+<path
+         id="path3972"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 706.5,253.332 c -24.633,10.566 -51.445,22.07 -77.547,33.27" /><path
+         id="path3974"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 630.023,289.57 -9.515,0.653 7.031,-6.442 z" /><path
+         id="path3976"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 674.801,128.301 c 0,0 264,0 264,0 6,0 12,-6 12,-12 0,0 0,-38 0,-38 0,-6 -6,-12 -12,-12 0,0 -264,0 -264,0 -6,0 -12,6 -12,12 0,0 0,38 0,38 0,6 6,12 12,12" /><text
+         id="text3980"
+         style="font-variant:normal;font-weight:bold;font-size:11.00024414px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(701.80078,100.10156)"><tspan
+           id="tspan3978"
+           y="0"
+           x="0 8.2501831 14.245316 20.988466 26.983599 31.482698 35.23378 44.98 50.975132 57.718281">Department</tspan></text>
+<path
+         id="path3982"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 806.801,128.301 v -62" /><text
+         id="text3986"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(813.80078,79.300781)"><tspan
+           id="tspan3984"
+           y="0"
+           x="0 5.2498717 8.2497988 13.499671 18.749542 21.73947 26.989342 32.239212 37.479084 42.728958 45.728886">created_at </tspan></text>
+<text
+         id="text3990"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(862.80078,79.300781)"><tspan
+           id="tspan3988"
+           y="0"
+           x="0 5.2498717 10.499743 13.489671 18.739542 21.729469 23.979414 32.229214 37.479084 40.469013 43.468941 48.718811 51.708736 56.958611">datetime (6,0)</tspan></text>
+<text
+         id="text3994"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(922.75932,79.300781)"><tspan
+           id="tspan3992"
+           y="0"
+           x="0"> </tspan></text>
+<text
+         id="text3998"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Nimbus Sans';-inkscape-font-specification:NimbusSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(923.4993,79.300781)"><tspan
+           id="tspan3996"
+           y="0"
+           x="0">∗</tspan></text>
+<text
+         id="text4002"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(813.80078,92.300781)"><tspan
+           id="tspan4000"
+           y="0"
+           x="0 2.2499452 7.4998169">id </tspan></text>
+<text
+         id="text4006"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(824.80078,92.300781)"><tspan
+           id="tspan4004"
+           y="0"
+           x="0 2.2499452 7.4998169 10.489744 15.739616 20.989489 26.229361 29.229286 32.229214 38.969048">integer PK</tspan></text>
+<text
+         id="text4010"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(813.80078,105.30078)"><tspan
+           id="tspan4008"
+           y="0"
+           x="0 5.2498717 10.499743 18.749542 23.999414">name </tspan></text>
+<text
+         id="text4014"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(841.80078,105.30078)"><tspan
+           id="tspan4012"
+           y="0"
+           x="0 5.2498717 8.2397985 11.239726 13.489671 18.739542">string</tspan></text>
+<text
+         id="text4018"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(813.80078,118.30078)"><tspan
+           id="tspan4016"
+           y="0"
+           x="0 5.2498717 10.499743 15.749616 20.989489 23.989414 29.229286 34.47916 39.729031 44.978901 47.96883">updated_at </tspan></text>
+<text
+         id="text4022"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(865.80078,118.30078)"><tspan
+           id="tspan4020"
+           y="0"
+           x="0 5.2498717 10.499743 13.489671 18.739542 21.729469 23.979414 32.229214 37.479084 40.469013 43.468941 48.718811 51.708736 56.958611">datetime (6,0)</tspan></text>
+<text
+         id="text4026"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(925.75932,118.30078)"><tspan
+           id="tspan4024"
+           y="0"
+           x="0"> </tspan></text>
+<text
+         id="text4030"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Nimbus Sans';-inkscape-font-specification:NimbusSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(926.4993,118.30078)"><tspan
+           id="tspan4028"
+           y="0"
+           x="0">∗</tspan></text>
+<path
+         id="path4032"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 806.801,128.359 c 0,8.579 0,18.188 0,27.688" /><path
+         id="path4034"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 809.949,156.082 -3.148,9 -3.153,-9 z" /><path
+         id="path4036"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 40.801,246.801 c 0,0 264,0 264,0 6,0 12,-6 12,-12 0,0 0,-51 0,-51 0,-6 -6,-12 -12,-12 0,0 -264,0 -264,0 -6,0 -12,6 -12,12 0,0 0,51 0,51 0,6 6,12 12,12" /><text
+         id="text4040"
+         style="font-variant:normal;font-weight:bold;font-size:11.00024414px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(72.800781,212.10156)"><tspan
+           id="tspan4038"
+           y="0"
+           x="0 7.4911661 11.990266 18.733416 22.473499 28.479631 34.474766 40.469898 47.213047">Professor</tspan></text>
+<path
+         id="path4042"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 172.801,246.801 v -75" /><text
+         id="text4046"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(179.80078,185.30078)"><tspan
+           id="tspan4044"
+           y="0"
+           x="0 5.2498717 8.2497988 13.499671 18.749542 21.73947 26.989342 32.239212 37.479084 42.728958 45.728886">created_at </tspan></text>
+<text
+         id="text4050"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(228.80078,185.30078)"><tspan
+           id="tspan4048"
+           y="0"
+           x="0 5.2498717 10.499743 13.489671 18.739542 21.729469 23.979414 32.229214 37.479084 40.469013 43.468941 48.718811 51.708736 56.958611">datetime (6,0)</tspan></text>
+<text
+         id="text4054"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(288.75932,185.30078)"><tspan
+           id="tspan4052"
+           y="0"
+           x="0"> </tspan></text>
+<text
+         id="text4058"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Nimbus Sans';-inkscape-font-specification:NimbusSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(289.4993,185.30078)"><tspan
+           id="tspan4056"
+           y="0"
+           x="0">∗</tspan></text>
+<text
+         id="text4062"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(179.80078,198.30078)"><tspan
+           id="tspan4060"
+           y="0"
+           x="0 2.2499452 7.4998169">id </tspan></text>
+<text
+         id="text4066"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(190.80078,198.30078)"><tspan
+           id="tspan4064"
+           y="0"
+           x="0 2.2499452 7.4998169 10.489744 15.739616 20.989489 26.229361 29.229286 32.229214 38.969048">integer PK</tspan></text>
+<text
+         id="text4070"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(179.80078,211.30078)"><tspan
+           id="tspan4068"
+           y="0"
+           x="0 5.2498717 10.499743 18.749542 23.999414">name </tspan></text>
+<text
+         id="text4074"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(207.80078,211.30078)"><tspan
+           id="tspan4072"
+           y="0"
+           x="0 5.2498717 8.2397985 11.239726 13.489671 18.739542">string</tspan></text>
+<text
+         id="text4078"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(179.80078,224.30078)"><tspan
+           id="tspan4076"
+           y="0"
+           x="0 5.2498717 7.4898171 10.479744 12.72969 17.979561 23.229433">office </tspan></text>
+<text
+         id="text4082"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(206.80078,224.30078)"><tspan
+           id="tspan4080"
+           y="0"
+           x="0 5.2498717 8.2397985 11.239726 13.489671 18.739542">string</tspan></text>
+<text
+         id="text4086"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(179.80078,237.30078)"><tspan
+           id="tspan4084"
+           y="0"
+           x="0 5.2498717 10.499743 15.749616 20.989489 23.989414 29.229286 34.47916 39.729031 44.978901 47.96883">updated_at </tspan></text>
+<text
+         id="text4090"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(231.80078,237.30078)"><tspan
+           id="tspan4088"
+           y="0"
+           x="0 5.2498717 10.499743 13.489671 18.739542 21.729469 23.979414 32.229214 37.479084 40.469013 43.468941 48.718811 51.708736 56.958611">datetime (6,0)</tspan></text>
+<text
+         id="text4094"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(291.75932,237.30078)"><tspan
+           id="tspan4092"
+           y="0"
+           x="0"> </tspan></text>
+<text
+         id="text4098"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Nimbus Sans';-inkscape-font-specification:NimbusSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(292.4993,237.30078)"><tspan
+           id="tspan4096"
+           y="0"
+           x="0">∗</tspan></text>
+<path
+         id="path4100"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 258.168,246.926 c 28.531,12.238 61.117,26.219 92.652,39.75" /><path
+         id="path4102"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 352.215,283.848 7.031,6.441 -9.516,-0.652 z" /><path
+         id="path4104"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 263.801,602.301 c 0,0 264,0 264,0 6,0 12,-6 12,-12 0,0 0,-12 0,-12 0,-6 -6,-12 -12,-12 0,0 -264,0 -264,0 -6,0 -12,6 -12,12 0,0 0,12 0,12 0,6 6,12 12,12" /><text
+         id="text4108"
+         style="font-variant:normal;font-weight:bold;font-size:11.00024414px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(274.80078,587.10156)"><tspan
+           id="tspan4106"
+           y="0"
+           x="0 7.4911661 13.4863 19.481432 23.232515 26.224581 32.967731 39.71088 45.706013 53.197182 56.948265 63.691414 70.401558 76.429695 83.139847 86.912926">SectionsStudents</tspan></text>
+<path
+         id="path4110"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 395.801,602.301 v -36" /><text
+         id="text4114"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(402.80078,579.30078)"><tspan
+           id="tspan4112"
+           y="0"
+           x="0 5.2498717 10.499743 15.749616 18.739542 20.989489 26.239359 31.489231 36.729103 38.97905 44.22892">section_id </tspan></text>
+<text
+         id="text4118"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(450.80078,579.30078)"><tspan
+           id="tspan4116"
+           y="0"
+           x="0 2.2499452 7.4998169 10.489744 15.739616 20.989489 26.229361">integer</tspan></text>
+<text
+         id="text4122"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(480.03007,579.30078)"><tspan
+           id="tspan4120"
+           y="0"
+           x="0"> </tspan></text>
+<text
+         id="text4126"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Nimbus Sans';-inkscape-font-specification:NimbusSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(480.78005,579.30078)"><tspan
+           id="tspan4124"
+           y="0"
+           x="0">∗</tspan></text>
+<text
+         id="text4130"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(493.52974,579.30078)"><tspan
+           id="tspan4128"
+           y="0"
+           x="0 5.9898539">FK</tspan></text>
+<text
+         id="text4134"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(402.80078,592.30078)"><tspan
+           id="tspan4132"
+           y="0"
+           x="0 5.2498717 8.2397985 13.489671 18.739542 23.989414 29.239286 32.229214 37.479084 39.729031 44.968903">student_id </tspan></text>
+<text
+         id="text4138"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(451.80078,592.30078)"><tspan
+           id="tspan4136"
+           y="0"
+           x="0 2.2499452 7.4998169 10.489744 15.739616 20.989489 26.229361">integer</tspan></text>
+<text
+         id="text4142"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(481.03007,592.30078)"><tspan
+           id="tspan4140"
+           y="0"
+           x="0"> </tspan></text>
+<text
+         id="text4146"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Nimbus Sans';-inkscape-font-specification:NimbusSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(481.78005,592.30078)"><tspan
+           id="tspan4144"
+           y="0"
+           x="0">∗</tspan></text>
+<text
+         id="text4150"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(494.52974,592.30078)"><tspan
+           id="tspan4148"
+           y="0"
+           x="0 5.9898539">FK</tspan></text>
+<path
+         id="path4152"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 363.254,404.5 c -12.488,10.344 -23.469,22.375 -31.453,36.301 -19.676,34.316 -16.75,53.164 0,89 5.73,12.258 15.801,22.695 26.285,31.008" /><path
+         id="path4154"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 360.02,558.32 5.339,7.899 -9.101,-2.844 z" /><path
+         id="path4156"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 357.801,529.301 c 0,0 264,0 264,0 6,0 12,-6 12,-12 0,0 0,-64 0,-64 0,-6 -6,-12 -12,-12 0,0 -264,0 -264,0 -6,0 -12,6 -12,12 0,0 0,64 0,64 0,6 6,12 12,12" /><text
+         id="text4160"
+         style="font-variant:normal;font-weight:bold;font-size:11.00024414px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(394.80078,488.10156)"><tspan
+           id="tspan4158"
+           y="0"
+           x="0 7.4911661 11.242249 17.952398 24.717548 30.723682 37.43383">Student</tspan></text>
+<path
+         id="path4162"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 489.801,529.301 v -88" /><text
+         id="text4166"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(496.80078,454.30078)"><tspan
+           id="tspan4164"
+           y="0"
+           x="0 5.2498717 8.2497988 13.499671 18.749542 21.73947 26.989342 32.239212 37.479084 42.728958 45.728886">created_at </tspan></text>
+<text
+         id="text4170"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(545.80078,454.30078)"><tspan
+           id="tspan4168"
+           y="0"
+           x="0 5.2498717 10.499743 13.489671 18.739542 21.729469 23.979414 32.229214 37.479084 40.469013 43.468941 48.718811 51.708736 56.958611">datetime (6,0)</tspan></text>
+<text
+         id="text4174"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(605.75932,454.30078)"><tspan
+           id="tspan4172"
+           y="0"
+           x="0"> </tspan></text>
+<text
+         id="text4178"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Nimbus Sans';-inkscape-font-specification:NimbusSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(606.4993,454.30078)"><tspan
+           id="tspan4176"
+           y="0"
+           x="0">∗</tspan></text>
+<text
+         id="text4182"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(496.80078,467.30078)"><tspan
+           id="tspan4180"
+           y="0"
+           x="0 2.2499452 7.4998169">id </tspan></text>
+<text
+         id="text4186"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(507.80078,467.30078)"><tspan
+           id="tspan4184"
+           y="0"
+           x="0 2.2499452 7.4998169 10.489744 15.739616 20.989489 26.229361 29.229286 32.229214 38.969048">integer PK</tspan></text>
+<text
+         id="text4190"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(496.80078,480.30078)"><tspan
+           id="tspan4188"
+           y="0"
+           x="0 5.2498717 10.499743 18.749542 23.999414">name </tspan></text>
+<text
+         id="text4194"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(524.80078,480.30078)"><tspan
+           id="tspan4192"
+           y="0"
+           x="0 5.2498717 8.2397985 11.239726 13.489671 18.739542">string</tspan></text>
+<text
+         id="text4198"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(496.80078,493.30078)"><tspan
+           id="tspan4196"
+           y="0"
+           x="0 5.2498717 10.499743 18.749542 23.999414 29.239286 32.239212">number </tspan></text>
+<text
+         id="text4202"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(532.80078,493.30078)"><tspan
+           id="tspan4200"
+           y="0"
+           x="0 2.2499452 7.4998169 10.489744 15.739616 20.989489 26.229361">integer</tspan></text>
+<text
+         id="text4206"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(496.80078,506.30078)"><tspan
+           id="tspan4204"
+           y="0"
+           x="0 5.2498717 10.499743 15.749616 18.739542 20.989489 26.239359 31.489231 36.739105 41.978977 44.22892 49.478794">sections_id </tspan></text>
+<text
+         id="text4210"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(549.80078,506.30078)"><tspan
+           id="tspan4208"
+           y="0"
+           x="0 2.2499452 7.4998169 10.489744 15.739616 20.989489 26.229361">integer</tspan></text>
+<text
+         id="text4214"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(496.80078,519.30078)"><tspan
+           id="tspan4212"
+           y="0"
+           x="0 5.2498717 10.499743 15.749616 20.989489 23.989414 29.229286 34.47916 39.729031 44.978901 47.96883">updated_at </tspan></text>
+<text
+         id="text4218"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(548.80078,519.30078)"><tspan
+           id="tspan4216"
+           y="0"
+           x="0 5.2498717 10.499743 13.489671 18.739542 21.729469 23.979414 32.229214 37.479084 40.469013 43.468941 48.718811 51.708736 56.958611">datetime (6,0)</tspan></text>
+<text
+         id="text4222"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(608.75932,519.30078)"><tspan
+           id="tspan4220"
+           y="0"
+           x="0"> </tspan></text>
+<text
+         id="text4226"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Nimbus Sans';-inkscape-font-specification:NimbusSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(609.4993,519.30078)"><tspan
+           id="tspan4224"
+           y="0"
+           x="0">∗</tspan></text>
+<path
+         id="path4228"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 489.801,413.402 c 0,6.196 0,12.418 0,18.473" /><path
+         id="path4230"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 486.648,413.402 3.153,-9 3.148,9 z" /><path
+         id="path4232"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 492.949,432.211 -3.148,9 -3.153,-9 z" /><path
+         id="path4234"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 357.801,240.301 c 0,0 264,0 264,0 6,0 12,-6 12,-12 0,0 0,-38 0,-38 0,-6 -6,-12 -12,-12 0,0 -264,0 -264,0 -6,0 -12,6 -12,12 0,0 0,38 0,38 0,6 6,12 12,12" /><text
+         id="text4238"
+         style="font-variant:normal;font-weight:bold;font-size:11.00024414px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(390.80078,212.10156)"><tspan
+           id="tspan4236"
+           y="0"
+           x="0 7.4911661 13.4863 23.232515 29.238649 35.23378 38.984863 44.98">Semester</tspan></text>
+<path
+         id="path4240"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 489.801,240.301 v -62" /><text
+         id="text4244"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(496.80078,191.30078)"><tspan
+           id="tspan4242"
+           y="0"
+           x="0 5.2498717 8.2497988 13.499671 18.749542 21.73947 26.989342 32.239212 37.479084 42.728958 45.728886">created_at </tspan></text>
+<text
+         id="text4248"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(545.80078,191.30078)"><tspan
+           id="tspan4246"
+           y="0"
+           x="0 5.2498717 10.499743 13.489671 18.739542 21.729469 23.979414 32.229214 37.479084 40.469013 43.468941 48.718811 51.708736 56.958611">datetime (6,0)</tspan></text>
+<text
+         id="text4252"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(605.75932,191.30078)"><tspan
+           id="tspan4250"
+           y="0"
+           x="0"> </tspan></text>
+<text
+         id="text4256"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Nimbus Sans';-inkscape-font-specification:NimbusSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(606.4993,191.30078)"><tspan
+           id="tspan4254"
+           y="0"
+           x="0">∗</tspan></text>
+<text
+         id="text4260"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(496.80078,204.30078)"><tspan
+           id="tspan4258"
+           y="0"
+           x="0 2.2499452 7.4998169">id </tspan></text>
+<text
+         id="text4264"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(507.80078,204.30078)"><tspan
+           id="tspan4262"
+           y="0"
+           x="0 2.2499452 7.4998169 10.489744 15.739616 20.989489 26.229361 29.229286 32.229214 38.969048">integer PK</tspan></text>
+<text
+         id="text4268"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(496.80078,217.30078)"><tspan
+           id="tspan4266"
+           y="0"
+           x="0 5.2498717 10.499743 18.749542 23.999414 29.249287 32.239212 37.489086 40.489014">semester </tspan></text>
+<text
+         id="text4272"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(540.80078,217.30078)"><tspan
+           id="tspan4270"
+           y="0"
+           x="0 5.2498717 8.2397985 11.239726 13.489671 18.739542">string</tspan></text>
+<text
+         id="text4276"
+         style="font-variant:normal;font-weight:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(496.80078,230.30078)"><tspan
+           id="tspan4274"
+           y="0"
+           x="0 5.2498717 10.499743 15.749616 20.989489 23.989414 29.229286 34.47916 39.729031 44.978901 47.96883">updated_at </tspan></text>
+<text
+         id="text4280"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(548.80078,230.30078)"><tspan
+           id="tspan4278"
+           y="0"
+           x="0 5.2498717 10.499743 13.489671 18.739542 21.729469 23.979414 32.229214 37.479084 40.469013 43.468941 48.718811 51.708736 56.958611">datetime (6,0)</tspan></text>
+<text
+         id="text4284"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Liberation Sans';-inkscape-font-specification:LiberationSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(608.75932,230.30078)"><tspan
+           id="tspan4282"
+           y="0"
+           x="0"> </tspan></text>
+<text
+         id="text4288"
+         style="font-style:italic;font-variant:normal;font-size:9.99975586px;font-family:'Nimbus Sans';-inkscape-font-specification:NimbusSans-Italic;writing-mode:lr-tb;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="translate(609.4993,230.30078)"><tspan
+           id="tspan4286"
+           y="0"
+           x="0">∗</tspan></text>
+<path
+         id="path4290"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 489.801,240.484 c 0,12.004 0,26.313 0,40.469" /><path
+         id="path4292"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 492.949,281.207 -3.148,9 -3.153,-9 z" /><path
+         id="path4294"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 448.023,529.41 c -10.003,10.324 -20.324,20.973 -29.125,30.055" /><path
+         id="path4296"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 421.023,561.801 -8.527,4.269 4.004,-8.656 z" /></g></g></svg>

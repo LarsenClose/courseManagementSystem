@@ -65,8 +65,9 @@ Table created with the names in alphabbetical order.
 > rails generate model ProgrammersProjects programmer:references project:references
 
 ---
-gist
----
+
+##### Overview
+
 
 * Create two models and a join table
 * Update two models with HABTM
@@ -74,24 +75,25 @@ gist
 * Iterate in show view using foreign key
 * Add foreign key to permit in controller
 
-```
+``` rails
 rails new bookslibraries
 cd bookslibraries
 rails generate scaffold Book name:string
 rails generate scaffold Library name:string
-rails generate model BooksLibraries 	book:references library:references
+rails generate model BooksLibraries book:references library:references
 rails db:migrate
 ```
 
 Then update controllers.rb and models.rb for both
 
----
+``` rails
 class Section < ApplicationRecord
   belongs_to :course
   belongs_to :professor
   belongs_to :semester
 end
----
+
 class Course < ApplicationRecord
   belongs_to :department
 end
+```
