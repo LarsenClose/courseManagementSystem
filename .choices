@@ -1,0 +1,22 @@
+read var1; rails new $var1
+
+bundle install
+
+rails generate scaffold Department name:string; rails generate scaffold Professor name:string office:string; rails generate scaffold Course number:integer hours:integer; rails generate scaffold Student name:string number:integer; rails generate scaffold Section year:integer; rails generate model SectionsStudents section:references student:references --force-plural; rails generate scaffold Semester semester:string; rails generate migration CreateJoinTableSectionStudent section student
+
+rails db:drop; rails db:migrate; rails db:seed; rails server
+
+
+rails db:migrate
+
+rails db:rollback
+
+rails db:seed
+
+rails server
+
+rails routes
+
+bundle exec erd
+
+sqlite3 -list db/development.sqlite3 .dump

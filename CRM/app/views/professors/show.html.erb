@@ -10,12 +10,6 @@
   <%= @professor.office %>
 </p>
 
-<ol>
-  <% @course.sections.each do |section| %>
-    <li> <%= section.name %>
-  <% end %>
-</ol>
-
 
 <%= link_to 'Edit', edit_professor_path(@professor) %> |
 <%= link_to 'Back', professors_path %>

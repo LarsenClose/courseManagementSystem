@@ -20,12 +20,6 @@
   <%= @section.semester.semester %>
 </p>
 
-<ol>
-  <% @course.sections.each do |section| %>
-    <li> <%= section.id %>
-  <% end %>
-</ol>
-
 
 <%= link_to 'Edit', edit_section_path(@section) %> |
 <%= link_to 'Back', sections_path %>

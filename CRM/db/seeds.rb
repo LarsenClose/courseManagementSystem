@@ -2,8 +2,8 @@ Department.destroy_all
 Semester.destroy_all
 Professor.destroy_all
 Student.destroy_all
-Sections.destroy_all
-Courses.destroy_all
+Section.destroy_all
+Course.destroy_all
 Semester.create(semester: 'Spring')
 Semester.create(semester: 'Summer')
 Semester.create(semester: 'Fall')
