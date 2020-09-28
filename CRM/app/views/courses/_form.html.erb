@@ -12,6 +12,11 @@
   <% end %>
 
   <div class="field">
+  <%= form.label :department %>
+  <%= form.collection_select :department, Department.all, :id, :name %>
+  </div>
+
+  <div class="field">
     <%= form.label :number %>
     <%= form.number_field :number %>
   </div>
@@ -20,6 +25,8 @@
     <%= form.label :hours %>
     <%= form.number_field :hours %>
   </div>
+
+
 
   <div class="actions">
     <%= form.submit %>

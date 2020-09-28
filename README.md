@@ -4,10 +4,7 @@
 
 ### Assignment 02
 
-
-
 > Build out most of the functionality of a course management system.
-
 
 #### Objects
 
@@ -25,7 +22,7 @@
 
 ##### Pages display actual data, not foreign keys. These examples show the difference.
 
-```
+``` git diff
 diff --git a/app/views/courses/index.html.erb b/app/views/courses/index.html.erb
 index f158f84..099e3d5 100644
 --- a/app/views/courses/index.html.erb
@@ -48,7 +45,7 @@ Dropdowns or checkboxes are created in approprate `.erb` files
 
 ##### A `db/seeds.rb` for possible prompt
 
-```
+``` rails
 Semester.create(semester: 'Spring')
 Semester.create(semester: 'Summer')
 Semester.create(semester: 'Fall')
@@ -70,7 +67,7 @@ Course.create(department\_id: 1, number: 3710, hours: 4)
 
 ##### One to one
 
-```
+``` rails
 class Employee < ActiveRecord::Base
   has_one :office
 end
@@ -81,7 +78,7 @@ end
 
 ##### One to Many
 
-```
+``` rails
 class Manager < ActiveRecord::Base
   has_many :employees
 end
@@ -92,7 +89,7 @@ end
 
 ##### Many to Many
 
-```
+``` rails
 class Assignment < ActiveRecord::Base
   belongs_to :programmer         # foreign key - programmer_id
   belongs_to :project            # foreign key - project_id
@@ -111,7 +108,7 @@ end
 
 ##### Has and Belongs to Many
 
-```
+``` rails
 class Programmer < ActiveRecord::Base
   has_and_belongs_to_many :projects
 end
@@ -135,7 +132,7 @@ gist
 * Iterate in show view using foreign key
 * Add foreign key to permit in controller
 
-```
+``` bash
 rails new bookslibraries
 cd bookslibraries
 rails generate scaffold Book name:string
@@ -147,6 +144,23 @@ rails db:migrate
 Then update controllers.rb and models.rb for both
 
 
+### starting commands
 
+``` bash
+rails generate scaffold Department name:string
+
+rails generate scaffold Professor name:string office:string
+
+rails generate scaffold Course number:integer hours:integer
+
+rails generate scaffold Student name:string number:integer
+
+rails generate scaffold Section year:integer
+
+rails generate scaffold Semester semester:string
+
+rails generate migration CreateJoinTableSectionStudent section student
+
+```
 
 
