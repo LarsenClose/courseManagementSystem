@@ -2,9 +2,9 @@
 
 ## Larsen Close
 
-### Assignment 02
+### Assignment 03
 
-> Build out most of the functionality of a course management system.
+> Add validations to all your models. Add a search for each index page. 
 
 <img src="./erd.svg">
 
