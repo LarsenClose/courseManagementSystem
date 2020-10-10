@@ -20,7 +20,7 @@
 2. rails generate model Placement student:references section:references
 3. rails generate migration CreateJoinTableSectionStudent section student
 
-##### Pages display actual data, not foreign keys. These examples show the difference.
+##### Pages display actual data, not foreign keys. These examples show the difference
 
 ``` git diff
 diff --git a/app/views/courses/index.html.erb b/app/views/courses/index.html.erb
