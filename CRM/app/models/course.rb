@@ -1,13 +1,13 @@
 class Course < ApplicationRecord
   belongs_to :department
   has_many :sections
-  validates :department_id, presence: true
   validates :number, presence: true
   validates :hours, presence: true
 
   def self.search(search)
     if search
-      self.where("  LIKE ?", "%#{params[:search]}%" )
+      key = "%#{search}%"
+      @courses = Course.where('department_id LIKE :search OR number LIKE :search OR hours LIKE :search', search: key).order(:name)
     else
       self.all
     end

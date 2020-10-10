@@ -2,7 +2,7 @@
 
 <h1>Departments</h1>
 
-<%= form_tag department_index_path, :method => "get" do %>
+<%= form_tag departments_path, :method => "get" do %>
     <%= label_tag(:search, "Search for:") %>
     <%= text_field_tag :search, params[:search] %>
     <%= submit_tag("Search", :name => nil) %>

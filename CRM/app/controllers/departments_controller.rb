@@ -40,10 +40,7 @@ class DepartmentsController < ApplicationController
   # PATCH/PUT /departments/1
   # PATCH/PUT /departments/1.json
   def update
-    respond_to do |format|
-      if @department.update(department_params)
-        format.html { redirect_to @department, notice: 'Department was successfully updated.' }
-        format.json { render :show, status: :ok, location: @department }
+    respond_to do |fo  validates :department_id , presence: true render :show, status: :ok, location: @department }
       else
         format.html { render :edit }
         format.json { render json: @department.errors, status: :unprocessable_entity }

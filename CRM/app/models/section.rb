@@ -8,14 +8,14 @@ class Section < ApplicationRecord
   validates :professor_id, presence: true
   validates :year, presence: true
   validates :semester_id, presence: true
-  validates :students_id, presence: true
+
 
   def self.search(search)
-      if search
-          self.where("  LIKE ?", "%#{params[:search]}%" )
-      else
-          self.all
-      end
-  end
-
+    if search
+        key = "%#{search}%"
+        @sections = Section.where('section_number LIKE :search, section.courses LIKE :search', search: key).order(:name)
+    else
+        self.all
+    end
+end
 end

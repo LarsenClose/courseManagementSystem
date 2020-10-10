@@ -3,13 +3,17 @@ class Student < ApplicationRecord
 
     validates :name, presence: true
     validates :number, presence: true
-    validates :sections_id, presence: true
+
 
     def self.search(search)
+        key = "%#{search}%"
         if search
-            self.where("  LIKE ?", "%#{params[:search]}%" )
+          
+          @students = Student.where('name LIKE :search OR number LIKE :search', search: key).order(:name)
         else
-            self.all
+          self.all
         end
+      end
     end
-end
+    
+    

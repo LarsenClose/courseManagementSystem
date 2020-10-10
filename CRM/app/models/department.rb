@@ -4,11 +4,10 @@ class Department < ApplicationRecord
 
     def self.search(search)
         if search
-            self.where("  LIKE ?", "%#{params[:search]}%" )
+            key = "%#{search}%"
+            @departments = Department.where('name LIKE :search', search: key).order(:name)
         else
             self.all
         end
     end
-
-
 end

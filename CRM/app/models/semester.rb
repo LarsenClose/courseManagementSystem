@@ -5,7 +5,7 @@ class Semester < ApplicationRecord
 
     def self.search(search)
         if search
-            self.where("  LIKE ?", "%#{params[:search]}%" )
+            self.where("  LIKE ?", "%#{self.params[:search]}%" )
         else
             self.all
         end
