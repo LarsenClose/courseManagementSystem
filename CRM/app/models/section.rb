@@ -13,9 +13,9 @@ class Section < ApplicationRecord
   def self.search(search)
     if search
         key = "%#{search}%"
-        @sections = Section.where('section_number LIKE :search, section.courses LIKE :search', search: key).order(:name)
-    else
-        self.all
+        @sections = Section.where('year LIKE :search OR course_id LIKE :search OR section_number LIKE :search', search: key).order(:name)
+        else
+            self.all
+        end
     end
-end
 end

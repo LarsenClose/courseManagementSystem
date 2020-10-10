@@ -5,7 +5,8 @@ class Semester < ApplicationRecord
 
     def self.search(search)
         if search
-            self.where("  LIKE ?", "%#{self.params[:search]}%" )
+            key = "%#{search}%"
+            @semesters = Semester.where('semester LIKE :search', search: key).order(:name)
         else
             self.all
         end
