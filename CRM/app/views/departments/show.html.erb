@@ -1,13 +1,17 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
+  <strong>Department:</strong>
   <%= @department.name %>
 </p>
 
+
+<p>
+  <strong>Courses: </strong>
+</p>
 <ol>
   <% @department.courses.each do |course| %>
-    <li> <%= course.name %>
+    <li> <%= course.number %>
   <% end %>
 </ol>
 

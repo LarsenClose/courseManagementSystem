@@ -4,7 +4,7 @@ class SemestersController < ApplicationController
   # GET /semesters
   # GET /semesters.json
   def index
-    @semesters = Semester.all
+    @semesters = Semester.search(params[:search])
   end
 
   # GET /semesters/1
@@ -69,6 +69,6 @@ class SemestersController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def semester_params
-      params.require(:semester).permit(:semester)
+      params.require(:semester).permit(:semester, :search)
     end
 end

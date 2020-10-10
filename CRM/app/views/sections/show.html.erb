@@ -11,6 +11,12 @@
 </p>
 
 <p>
+  <strong>Section:</strong>
+  <%= @section.section_number %>
+</p>
+
+
+<p>
   <strong>Professor:</strong>
   <%= @section.professor.name %>
 </p>
@@ -19,6 +25,15 @@
   <strong>Semester:</strong>
   <%= @section.semester.semester %>
 </p>
+
+<p>
+  <strong>Students:</strong>
+</p>
+<ul>
+  <% @section.students.each do |student| %>
+  <%= student.name %>
+  <% end %>
+</ul>
 
 
 <%= link_to 'Edit', edit_section_path(@section) %> |

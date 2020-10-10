@@ -4,7 +4,7 @@ class CoursesController < ApplicationController
   # GET /courses
   # GET /courses.json
   def index
-    @courses = Course.all
+    @courses = Course.search(params[:search])
   end
 
   # GET /courses/1
@@ -69,6 +69,6 @@ class CoursesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def course_params
-      params.require(:course).permit(:deparment_id, :number, :hours)
+      params.require(:course).permit(:deparment_id, :number, :hours, :search)
     end
 end

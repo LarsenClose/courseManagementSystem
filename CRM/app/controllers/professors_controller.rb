@@ -4,7 +4,7 @@ class ProfessorsController < ApplicationController
   # GET /professors
   # GET /professors.json
   def index
-    @professors = Professor.all
+    @professors = Professor.search(params[:search])
   end
 
   # GET /professors/1
@@ -69,6 +69,6 @@ class ProfessorsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def professor_params
-      params.require(:professor).permit(:name, :office)
+      params.require(:professor).permit(:name, :office, :search)
     end
 end
