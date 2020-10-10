@@ -4,10 +4,9 @@
 
 ### Assignment 03
 
-> Add validations to all your models. Add a search for each index page. 
+> Add validations to all your models. Add a search for each index page.
 
 <img src="./erd.svg">
-
 
 Expanded the seed:db to test and explore search functionality:
 
@@ -70,7 +69,7 @@ rails generate scaffold Semester semester:string;
 rails generate migration CreateJoinTableSectionStudent section student
 ```
 
-> added an extra column to sections to indicate when number section of a class
+> added an extra column to sections to indicate which section number of a class
 
 Not using rubymine so I:
 

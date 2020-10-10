@@ -14,3 +14,5 @@ class Course < ApplicationRecord
   end
 end
 
+Course.create(number: 3205, hours: 4).valid? # => true
+Course.create(number: nil, hours: nil).valid? # => false
