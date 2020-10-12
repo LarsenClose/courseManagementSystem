@@ -11,3 +11,7 @@ class Department < ApplicationRecord
         end
     end
 end
+
+Department.create(name: "Biology").valid? # => true
+Department.create(name: nil).valid? # => false
+

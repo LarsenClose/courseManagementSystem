@@ -34,15 +34,10 @@
   </div>
 
 
-
   <div class="field">
   <%= form.label :semester_id %>
   <%= form.collection_select :semester_id, Semester.all, :id, :semester %>
   </div>
-
-
-
-
 
   <div class="actions">
     <%= form.submit %>

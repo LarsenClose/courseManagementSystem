@@ -12,3 +12,6 @@ class Professor < ApplicationRecord
         end
     end
 end
+
+Professor.create(name: "Roger Penrose").valid? # => true
+Professor.create(name: nil).valid? # => false
