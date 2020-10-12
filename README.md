@@ -1,10 +1,24 @@
-# Web Application
+# Web Application Development
 
 ## Larsen Close
 
 ### Assignment 03
 
-> Add validations to all your models. Add a search for each index page.
+> Add validations to all your models.
+
+- [x] added validations to every model. Basic rules thus far, fields which can be are limited to number_field and collection_select
+
+> Add a search for each index page.
+
+- [x] added a seach to each model which will search through all of the models relations which must be given at creation, either through declaration or relationship type. To be explicit the search function is added to each **Model** and is defined within the model Class for each.
+
+> TODO
+
+- [ ] Bring tests up to speed for all functionality
+
+- [ ] Instantiate the Section to Student and vise versa relationship. The relationships exist but there are no assignments.
+
+- [ ] Autocomplete functionality
 
 <img src="./erd.svg">
 
@@ -80,9 +94,9 @@ Not using rubymine so I:
 5. Created and customized a configuration file ```.erdconfig```
 6. Ran ```bundle exec erd```
 
-#### TODO's
+#### TODO's archive
 
-1. Complete validations
-2. Bug in gui creation of a course, not recognizing existing state of department
-3. Autocomplete functionality
-4. Add seeds for student section relationship
+- [x] Complete validations
+- [X] Bug in gui creation of a course, not recognizing existing state of department
+- [ ] Autocomplete functionality
+- [x] Add to seeds verbosity for trying search cases
