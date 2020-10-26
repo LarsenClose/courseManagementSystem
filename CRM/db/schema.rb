@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_10_004815) do
+ActiveRecord::Schema.define(version: 2020_10_26_012734) do
 
   create_table "courses", force: :cascade do |t|
     t.integer "department_id", null: false
@@ -39,14 +39,12 @@ ActiveRecord::Schema.define(version: 2020_10_10_004815) do
     t.integer "professor_id", null: false
     t.integer "year"
     t.integer "semester_id", null: false
-    t.integer "students_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "section_number"
     t.index ["course_id"], name: "index_sections_on_course_id"
     t.index ["professor_id"], name: "index_sections_on_professor_id"
     t.index ["semester_id"], name: "index_sections_on_semester_id"
-    t.index ["students_id"], name: "index_sections_on_students_id"
   end
 
   create_table "sections_students", id: false, force: :cascade do |t|
@@ -63,16 +61,24 @@ ActiveRecord::Schema.define(version: 2020_10_10_004815) do
   create_table "students", force: :cascade do |t|
     t.string "name"
     t.integer "number"
-    t.integer "sections_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["sections_id"], name: "index_students_on_sections_id"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "email", default: "", null: false
+    t.string "encrypted_password", default: "", null: false
+    t.string "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["email"], name: "index_users_on_email", unique: true
+    t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
   add_foreign_key "courses", "departments"
   add_foreign_key "sections", "courses"
   add_foreign_key "sections", "professors"
   add_foreign_key "sections", "semesters"
-  add_foreign_key "sections", "students", column: "students_id"
-  add_foreign_key "students", "sections", column: "sections_id"
 end

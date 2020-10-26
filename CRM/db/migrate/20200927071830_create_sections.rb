@@ -5,7 +5,6 @@ class CreateSections < ActiveRecord::Migration[6.0]
       t.references :professor, null: false, foreign_key: true
       t.integer :year
       t.references :semester, null: false, foreign_key: true
-      t.references :students, index: true, foreign_key: true
       t.timestamps
     end
   end
