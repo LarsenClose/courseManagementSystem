@@ -2,27 +2,22 @@
 
 ## Larsen Close
 
-### Assignment 03
+### Assignment 04
 
-> Add validations to all your models.
+> Requirements
 
-- [x] added validations to every model. Basic rules thus far, fields which can be are limited to number_field and collection_select
+- [x] Add navigation
 
-> Add a search for each index page.
+- [x] Add user Authetication
 
-- [x] added a seach to each model which will search through all of the models relations which must be given at creation, either through declaration or relationship type. To be explicit the search function is added to each **Model** and is defined within the model Class for each.
 
-> TODO
 
-- [ ] Bring tests up to speed for all functionality
+<img src="erd.svg">
 
-- [ ] Instantiate the Section to Student and vise versa relationship. The relationships exist but there are no assignments.
+Used Migrations to fix the issue with redudndant ID's for sections and students. Also made simple non-rails celebration landing page. 
 
-- [ ] Autocomplete functionality
 
-<img src="./erd.svg">
-
-Expanded the seed:db to test and explore search functionality:
+Current seed:db to test and explore search functionality:
 
 ``` rails
 
@@ -100,3 +95,9 @@ Not using rubymine so I:
 - [X] Bug in gui creation of a course, not recognizing existing state of department
 - [ ] Autocomplete functionality
 - [x] Add to seeds verbosity for trying search cases
+
+- [x] added validations to every model. Basic rules thus far, fields which can be are limited to number_field and collection_select
+
+> Add a search for each index page.
+
+- [x] added a seach to each model which will search through all of the models relations which must be given at creation, either through declaration or relationship type. To be explicit the search function is added to each **Model** and is defined within the model Class for each.
