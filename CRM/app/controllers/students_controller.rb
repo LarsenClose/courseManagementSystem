@@ -15,16 +15,19 @@ class StudentsController < ApplicationController
   # GET /students/new
   def new
     @student = Student.new
+    @sections = Section.all
   end
 
   # GET /students/1/edit
   def edit
+    @sections = Section.search(params[:search])
   end
 
   # POST /students
   # POST /students.json
   def create
     @student = Student.new(student_params)
+    @sections = Section.all
 
     respond_to do |format|
       if @student.save
@@ -69,6 +72,6 @@ class StudentsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def student_params
-      params.require(:student).permit(:name, :number, :search)
+      params.require(:student).permit(:name, :number, :search, :section_ids => [])
     end
 end

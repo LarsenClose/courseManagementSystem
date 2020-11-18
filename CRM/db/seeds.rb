@@ -29,15 +29,15 @@ Course.create(department_id: 2, number: 4500, hours: 4)
 
 
 
-Section.create(course_id: 1, section_number: 02, professor_id: 1, year: 2019, semester_id: 1)
-Section.create(course_id: 1, section_number: 01, professor_id: 3, year: 2019, semester_id: 1)
+Section.create(course_id: 1, section_number: 2342, professor_id: 1, year: 2019, semester_id: 1)
+Section.create(course_id: 1, section_number: 5461, professor_id: 3, year: 2019, semester_id: 2)
 
-Section.create(course_id: 2, section_number: 01, professor_id: 2, year: 2019, semester_id: 1)
-Section.create(course_id: 2, section_number: 02, professor_id: 4, year: 2019, semester_id: 1)
+Section.create(course_id: 2, section_number: 3451, professor_id: 2, year: 2019, semester_id: 1)
+Section.create(course_id: 2, section_number: 2432, professor_id: 4, year: 2019, semester_id: 3)
 
 
-Section.create(course_id: 3, section_number: 01, professor_id: 2, year: 2019, semester_id: 1)
-Section.create(course_id: 3, section_number: 02, professor_id: 4, year: 2019, semester_id: 1)
+Section.create(course_id: 3, section_number: 2331, professor_id: 2, year: 2019, semester_id: 1)
+Section.create(course_id: 3, section_number: 2232, professor_id: 4, year: 2019, semester_id: 1)
 
 
 
