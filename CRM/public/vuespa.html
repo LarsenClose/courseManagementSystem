@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>A very simple SPA in Vue, with a very small rhyme from me to you</title>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="Itemlist">
+    <button v-on:click="doajax('professors')">professors</button>
+    <button v-on:click="doajax('students')">students</button>
+    <button v-on:click="doajax('semesters')">semesters</button>
+    <button v-on:click="doajax('courses')">courses</button>
+    <button v-on:click="doajax('departments')">departments</button>
+    <button v-on:click="doajax('sections')">sections</button>
+    <ul>
+    <div v-for="item in items">
+    
+      <span v-if="item === professor"></span>
+          {{item.name}} {{item.office}}
+
+
+
+      <span v-if="item === student"></span>
+
+
+      <span v-if="item === semester"></span>
+        {{item.semester}}
+
+
+      <span v-if="item === course"></span>
+        {{item.course}}
+        {{item.department}}
+        {{item.number}}
+        {{item.hours}}
+
+
+  <div>
+      <span v-if="item === section"></span>
+        {{item.year}}
+        {{item.course}}
+        {{item.section}}
+        {{item.professor}}
+        {{item.semester}}
+      </span>
+    </div>
+
+
+
+    </div>
+    </ul>
+</div>
+
+<script type="text/javascript">
+var ItemsVue = new Vue({
+    el: '#Itemlist',
+    data: { items: [] },
+    methods: {
+        // use jquery
+        doajax: function(which) {
+            $.ajax({
+                url: 'http://localhost:3000/' + which + '.json',
+                method: 'GET',
+                // use => so the this is not set
+                success: (d) => {
+                    this.items = d;
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+        }
+    }
+});
+</script>
+
+</body>
+</html>
