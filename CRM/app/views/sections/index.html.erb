@@ -11,7 +11,6 @@
 <table>
   <thead>
     <tr>
-      <th>Year</th>
       <th>Course</th>
       <th>Section</th>
       <th>Professor</th>
@@ -24,7 +23,6 @@
   <tbody>
     <% @sections.each do |section| %>
       <tr>
-        <td><%= section.year %></td>
         <td><%= section.course.number %></td>
         <td><%= section.section_number %></td>
         <td><%= section.professor.name %></td>

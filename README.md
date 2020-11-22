@@ -10,6 +10,11 @@
 
 - [ ] CRUD secondary priority
 
+1. Currently the multipage web app seems to be functioning well. Login at the index page (127.0.0.1:3000 on development server)
+2. The js app in progress but can be accessed at 127.0.0.1:3000/vuespa.html
+3. If weird things happen with the data base ```rails db:drop; rails db:migrate; rails db:seed; rails server```
+4. Gem seed_dump did work for me on rails 6 with a few changes to the object before being able to reload it
+
 
 
 <img src="erd.svg">
