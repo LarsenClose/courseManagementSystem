@@ -20,3 +20,12 @@ rails routes
 bundle exec erd
 
 sqlite3 -list db/development.sqlite3 .dump
+
+# Dr Beaty's commands for exposing the json interface
+
+rails g migration DropSectionsStudents
+rails db:migrate
+rails g scaffold SectionsStudents section:references student:references --force-plural --force
+rails db:migrate
+
+rake db:seed:dump

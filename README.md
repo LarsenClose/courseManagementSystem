@@ -2,13 +2,13 @@
 
 ## Larsen Close
 
-### Assignment 04
+### Assignment 05
 
 > Requirements
 
-- [x] Add navigation
+- [ ] Integrate all elements into single page application with javascript
 
-- [x] Add user Authetication
+- [ ] CRUD secondary priority
 
 
 

@@ -1,5 +1,8 @@
+<p id="notice"><%= notice %></p>
 
+<h1>Students</h1>
 
+<div>
 <p>
   <strong>Name:</strong>
   <%= @student.name %>
@@ -9,6 +12,35 @@
   <strong>Number:</strong>
   <%= @student.number %>
 </p>
+</div>
+
+
+<div>
+<p>
+  <strong>Sections:</strong>
+</p>
+</div>
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Number</th>
+      <th colspan="5"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @student.sections.each do |section| %>
+      <tr>
+        <td><%= section.year %></td>
+        <td><%= section.section_number %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
 
 <%= link_to 'Edit', edit_student_path(@student) %> |
 <%= link_to 'Back', students_path %>
+

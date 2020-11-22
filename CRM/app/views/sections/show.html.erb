@@ -29,11 +29,11 @@
 <p>
   <strong>Students:</strong>
 </p>
-<ul>
+<ol>
   <% @section.students.each do |student| %>
   <%= student.name %>
   <% end %>
-</ul>
+</ol>
 
 
 <%= link_to 'Edit', edit_section_path(@section) %> |
