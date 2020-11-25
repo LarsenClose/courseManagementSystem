@@ -27,12 +27,6 @@ Course.create!([
   {department_id: 3, number: 1800, hours: 3},
   {department_id: 4, number: 1030, hours: 3},
   {department_id: 5, number: 3750, hours: 4},
-  {department_id: 6, number: 4500, hours: 4},
-  {department_id: 1, number: 2400, hours: 3},
-  {department_id: 2, number: 3600, hours: 3},
-  {department_id: 3, number: 1800, hours: 3},
-  {department_id: 4, number: 1030, hours: 3},
-  {department_id: 5, number: 3750, hours: 4},
   {department_id: 6, number: 4500, hours: 4}
 ])
 
