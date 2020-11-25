@@ -17,6 +17,3 @@ class Student < ApplicationRecord
     end
     
 
-Student.create(name: "Summer Alexan", number: 900348).valid? # => true
-Student.create(name: nil, number: nil).valid? # => false
-

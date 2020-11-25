@@ -17,42 +17,16 @@
     <button v-on:click="doajax('departments')">departments</button>
     <button v-on:click="doajax('sections')">sections</button>
     <ul>
-    <div v-for="item in items">
-            
-      <span v-if="item === professor"></span>
-          {{item.name}} {{item.office}}
-
-
-
-      <span v-if="item === student"></span>
-
-
-      <span v-if="item === semester"></span>
-
-
-
-      <span v-if="item === course"></span>
-        {{item.department}}
-        {{item.number}}
-        {{item.hours}}
-        {{item.sections}}
-
-
-
-      <span v-if="item === section"></span>
-        {{item.id}}
-        {{item.year}}
-        {{item.course}}
-        {{item.section}}
-        {{item.professor}}
-        {{item.semester}}
-
-
-
-
+    <div v-for="item in Itemlist">
+        <li>{{item.name}}</li>
+        <div v-for="it in item">
+            <li>{{it}}</li>
+            <span v-if="it") 
+        </span>
     </div>
     </ul>
 </div>
+
 
 <script type="text/javascript">
 var ItemsVue = new Vue({
