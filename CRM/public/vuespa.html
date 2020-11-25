@@ -17,15 +17,11 @@
     <button v-on:click="doajax('departments')">departments</button>
     <button v-on:click="doajax('sections')">sections</button>
     <ul>
-    <div v-for="item in Itemlist">
-        <li>{{item.name}}</li>
-        <div v-for="it in item">
-            <li>{{it}}</li>
-            <span v-if="it") 
-        </span>
+        <div v-for="item in items">
+            <li>{{item.name}}, {{item.office}} </li>
+        </div>
+        </ul>
     </div>
-    </ul>
-</div>
 
 
 <script type="text/javascript">
