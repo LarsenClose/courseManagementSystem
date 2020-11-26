@@ -93,7 +93,7 @@
           </li>
         </div>
       </span>
-      <span v-else=""></span>
+      <span v-else="pagesinfoselected=true"></span>
     </ul>
   </div>
 
@@ -114,6 +114,8 @@
         students_selected: false,
         sections: [],
         sections_selected: false,
+        page: [],
+        
       },
       mounted: function () {
  
@@ -139,6 +141,10 @@
 
         axios.get("http://localhost:3000/sections.json").then(response => {
           this.sections = response.data;
+        }).catch((error) => { console.log(error); });
+
+        axios.get("http://localhost:3000/pages/info.json").then(response => {
+          this.info = response.data;
         }).catch((error) => { console.log(error); });
       }
 
