@@ -1,5 +1,7 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
 <head>
   <title>A very simple SPA in Vue and Axios made into Spaghetti </title>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
@@ -19,8 +21,8 @@
         <strong>Professor's </strong>
         <div v-for="professor in professors">
           <li>
-            <medium> Name: </medium> {{ professor.name }},
-            <medium>Office: </medium> {{ professor.office }}
+            <b> Name: </b> {{ professor.name }},
+            <b>Office: </b> {{ professor.office }}
           </li>
         </div>
       </span>
@@ -40,59 +42,59 @@
         <strong>Courses: </strong>
         <div v-for="course in courses">
           <li>
-            <medium>number: </medium> {{ course.number }},
-            <medium>department: </medium>{{ course.department.name }},
-
-            <medium>credit hours: </medium> {{ course.hours }}
-     
-      <span v-if="course.sections">
-        <pre>sections: </pre>
-        <pre> <div v-for="section in course.sections"> {{ section.section_number }} </div></pre>
-        </li>
-  </div>
-  </span>
-  <span v-else-if="students_selected">
-    <strong>Students: </strong>
-    <div v-for="student in students">
-      <li>
-        <medium>Name: </medium>{{ student.name }},
-        <medium>Number: </medium> {{ student.number }}
-        <span v-if="student.sections">
-          <pre>Section(s):</pre>
-          <div v-for="section in student.sections">
-            <pre>
-                    <medium>number:</medium> {{ section.section_number }}
-                    <medium>year:</medium> {{ section.year }}
+            
+              <weak>Number: </weak> {{ course.number }}
+            <weak>Department: </weak>{{ course.department.name }},
+            <weak>Credit hours: </weak> {{ course.hours }}
+            <span v-if="course.sections">
+              <small>Sections: </small> 
+              <pre><div v-for="section in course.sections"> {{ section.section_number }} </div>
+            </pre>
+          </li>
+        </div>
+      </span>
+      <span v-else-if="students_selected">
+        <strong>Students: </strong>
+        <div v-for="student in students">
+          <li>
+            <b>Name: </b>{{ student.name }},
+            <b>Number: </b> {{ student.number }}
+            <span v-if="student.sections">
+              <pre>Section(s):</pre>
+              <div v-for="section in student.sections">
+                <pre>
+                    <b>number:</b> {{ section.section_number }}
+                    <b>year:</b> {{ section.year }}
                   </pre>
-          </div>
-        </span>
-      </li>
-    </div>
-  </span>
-  <span v-else-if="sections_selected">
-    <strong>Sections: </strong>
-    <div v-for="section in sections">
-      <li>
-        <medium>Number: </medium> {{ section.section_number }}
-        <br>
-        <weak>Course: </weak> {{ section.course.number }},
-        <weak>Professor: </weak> {{ section.professor.name }},
-        <weak>Semester: </weak> {{ section.semester.semester }},
-        <weak>Year: </weak> {{ section.year }}
-        <span v-if="section.students">
-          <pre>
-            <medium>Students:</medium>
+              </div>
+            </span>
+          </li>
+        </div>
+      </span>
+      <span v-else-if="sections_selected">
+        <strong>Sections: </strong>
+        <div v-for="section in sections">
+          <li>
+            <b>Number: </b> {{ section.section_number }}
+            <br>
+            <weak>Course: </weak> {{ section.course.number }},
+            <weak>Professor: </weak> {{ section.professor.name }},
+            <weak>Semester: </weak> {{ section.semester.semester }},
+            <weak>Year: </weak> {{ section.year }}
+            <span v-if="section.students">
+              <pre>
+            <b>Students:</b>
             <div v-for="student in section.students">
-              <medium>Name: </medium> {{ student.name }},
-              <medium>Number: </medium> {{ student.number }}
+              <b>Name: </b> {{ student.name }},
+              <b>Number: </b> {{ student.number }}
             </div>
           </pre>
-        </span>
-      </li>
-    </div>
-  </span>
-  <span v-else=""></span>
-  </ul>
+            </span>
+          </li>
+        </div>
+      </span>
+      <span v-else=""></span>
+    </ul>
   </div>
 
 
@@ -103,27 +105,18 @@
         professors: [],
         professors_selected: false,
         departments: [],
-
         departments_selected: false,
         semesters: [],
-        semesters_selected: false, 
-               courses: [],
-        courses_selected: false, 
-         students: [],
+        semesters_selected: false,
+        courses: [],
+        courses_selected: false,
+        students: [],
         students_selected: false,
         sections: [],
         sections_selected: false,
-
-
-
-
-
-      
-        
       },
       mounted: function () {
-
-
+ 
         axios.get("http://localhost:3000/departments.json").then(response => {
           this.departments = response.data;
         }).catch((error) => { console.log(error); });

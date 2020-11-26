@@ -6,16 +6,18 @@
 
 > Requirements
 
-- [ ] Integrate all elements into single page application with javascript
+- [x] Integrate all elements into single page application with javascript
 
 - [ ] CRUD secondary priority
 
-1. Currently the multipage web app seems to be functioning well. Login at the index page (127.0.0.1:3000 on development server)
-2. The js app in progress but can be accessed at 127.0.0.1:3000/vuespa.html
-3. If weird things happen with the data base ```rails db:drop; rails db:migrate; rails db:seed; rails server```
-4. Gem seed_dump did work for me on rails 6 with a few changes to the object before being able to reload it
+1. My public html file is vuespaaxios.html, it's served at http://localhost:3000/vuespaaxios.html
+   - based off https://github.com/drsjb80/SPAs/blob/master/vueaxiosspa1toM.html
+2. .choices #4 ```rails db:drop; rails db:migrate; rails db:seed; rails server``` to run it
+3. db:seed should be good but there is also a backup ```/seedsDir/seeds.rb```
 
-
+- Rails 6.0.3.3
+- Ruby version 2.7.1
+- package.json and Gemfile + Gemlock have the rest
 
 <img src="erd.svg">
 
@@ -95,6 +97,12 @@ Not using rubymine so I:
 6. Ran ```bundle exec erd```
 
 #### TODO's archive
+
+1. Currently the multipage web app seems to be functioning well. Login at the index page (127.0.0.1:3000 on development server)
+2. The js app in progress but can be accessed at 127.0.0.1:3000/vuespa.html
+3. If weird things happen with the data base ```rails db:drop; rails db:migrate; rails db:seed; rails server```
+4. Gem seed_dump did work for me on rails 6 with a few changes to the object before being able to reload it
+
 
 - [x] Complete validations
 - [X] Bug in gui creation of a course, not recognizing existing state of department
