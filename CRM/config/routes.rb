@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :sections_students
   root to: redirect('/pages/info')
   get 'pages/info'
   devise_for :users

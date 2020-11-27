@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.css" />
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="//unpkg.com/vue@latest/dist/vue.min.js"></script>
+<script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.js"></script>
+<script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue-icons.min.js"></script>
+</head>
+<title>A very simple SPA in Vue and Axios made into Spaghetti </title>
+<body>
+    <div ascii>
+        <body>
+            <pre><strong><b>
+        _________                 __                                                 
+        \_   ___ \ __ __  _______/  |_  ____   _____   ___________                   
+        /    \  \/|  |  \/  ___/\   __\/  _ \ /     \_/ __ \_  __ \                  
+        \     \___|  |  /\___ \  |  | (  <_> )  Y Y  \  ___/|  | \/                  
+         \______  /____//____  > |__|  \____/|__|_|  /\___  >__|                     
+                \/           \/                    \/     \/                         
+        __________       .__          __  .__                     .__    .__         
+        \______   \ ____ |  | _____ _/  |_|__| ____   ____   _____|  |__ |__|_____   
+         |       _// __ \|  | \__  \\   __\  |/  _ \ /    \ /  ___/  |  \|  \____ \  
+         |    |   \  ___/|  |__/ __ \|  | |  (  <_> )   |  \\___ \|   Y  \  |  |_> > 
+         |____|_  /\___  >____(____  /__| |__|\____/|___|  /____  >___|  /__|   __/  
+                \/     \/          \/                    \/     \/     \/   |__|     
+           _____                                                             __      
+          /     \ _____    ____ _____     ____   ____   _____   ____   _____/  |_    
+         /  \ /  \\__  \  /    \\__  \   / ___\_/ __ \ /     \_/ __ \ /    \   __\   
+        /    Y    \/ __ \|   |  \/ __ \_/ /_/  >  ___/|  Y Y  \  ___/|   |  \  |     
+        \____|__  (____  /___|  (____  /\___  / \___  >__|_|  /\___  >___|  /__|     
+                \/     \/     \/     \//_____/      \/      \/     \/     \/                                                              
+            </b></strong></pre>
+            </body>
+        </div>
+
+
+<div id="Itemlist">
+    <button v-on:click="professors_selected=!professors_selected">Professors tab</button>
+    <button v-on:click="departments_selected=!departments_selected">Departments tab</button>
+    <button v-on:click="semesters_selected=!semesters_selected">Semesters tab</button>
+    <button v-on:click="courses_selected=!courses_selected">Courses tab</button>
+    <button v-on:click="students_selected=!students_selected">Students tab</button>
+    <button v-on:click="sections_selected=!sections_selected">Sections tab</button>
+    <ul>
+    <span v-if="professors_selected">
+      <b-spinner type="border" small></b-spinner><strong>   Professors</strong>
+            <div v-for="professor in professors">
+                <li> <b> Name: </b> {{ professor.name }}, <b>Office: </b> {{ professor.office }}</li>
+            </div>
+    </span>
+    <span v-else-if="departments_selected">
+      <b-spinner type="border" small></b-spinner><strong>    Departments</strong>
+            <div v-for="department in departments">
+                <li>{{ department.name }}</li>
+            </div>
+    </span>
+    <span v-else-if="semesters_selected">
+      <b-spinner type="border" small></b-spinner><strong>    Semesters</strong>
+            <div v-for="semester in semesters">
+                  <li> {{ semester.semester }}</li>
+            </div>
+    </span>
+    <span v-else-if="courses_selected">
+      <b-spinner type="border" small></b-spinner><strong>    Courses</strong>
+          <div v-for="course in courses">
+              <li>
+                <b> 
+                  <small>
+                      Number: 
+                  </small> 
+                </b>
+                    <small>{{ course.number }} </small>
+                    <small>Department: </small>
+                    <small>{{ course.department.name }}</small> <br>
+                    <small>
+                        Credit hours: {{ course.hours }} 
+                      </small> 
+                      <br>
+                      <span v-if="course.sections">
+                        <pre>Sections: </small> </pre>
+                                <div v-for="section in course.sections">
+                                    <small>{{ section.section_number }}</small>
+                                </div>
+                            
+                      </span>
+                </li>
+          </div>
+      </span>
+    </span>
+    <span v-else-if="students_selected">
+      <b-spinner type="border" small></b-spinner>    <strong>    Students</strong>
+        <div v-for="student in students">
+            <li>  <b>Name: </b>{{ student.name }} <br>
+                  <b>Number:</b> {{ student.number }} 
+            <span v-if="student.sections">
+                <pre>
+                    Section(s):
+                </pre>
+                <div v-for="section in student.sections">
+                    <pre>
+                        <b>number:</b> {{ section.section_number }}
+                        <b>year:</b> {{ section.year }}
+                    </pre>
+                </div>
+            </span>
+            </li>
+        </div>
+    </span>
+    <span v-else-if="sections_selected">
+      <b-spinner type="border" small></b-spinner>   <strong>   Sections</strong>
+        <div v-for="section in sections">
+          <li> <b>Number: </b> {{ section.section_number }}
+              <br>
+              <small>
+                  Course: {{ section.course.number }},
+                  Professor:  {{ section.professor.name }},
+                  Semester: {{ section.semester.semester }},
+                  Year: {{ section.year }}
+              </small> 
+              <span v-if="section.students">
+                  <pre>
+                      <b>Students:</b>
+                        <div v-for="student in section.students">
+                            <b>Name: </b> {{ student.name }},
+                            <b>Number: </b> {{ student.number }}
+                        </div>
+                  </pre>
+              </span>
+          </li>
+      </div>
+    </span>
+    </ul>
+  </div>
+
+
+
+  <script type="text/javascript">
+    var vm = new Vue({
+      el: "#Itemlist",
+      data: {
+          professors_selected: false,
+          professors: [],
+          departments_selected: false,
+          departments: [],
+          semesters_selected: false,
+          semesters: [],
+          courses_selected: false,
+          courses: [],
+          students_selected: false,
+          students: [],
+          sections_selected: false,
+          sections: []
+      },
+      mounted() {
+          axios.get("http://localhost:3000/professors.json")
+              .then(response => {this.professors = response.data;})
+              .catch((error) => { console.log(error); });
+          axios.get("http://localhost:3000/departments.json")
+              .then(response => {this.departments = response.data;})
+              .catch((error) => { console.log(error); }); 
+          axios.get("http://localhost:3000/semesters.json")
+              .then(response => {this.semesters = response.data;})
+              .catch((error) => { console.log(error); });
+          axios.get("http://localhost:3000/courses.json")
+              .then(response => {this.courses = response.data;})
+              .catch((error) => { console.log(error); }); 
+          axios.get("http://localhost:3000/students.json")
+              .then(response => {this.students = response.data;})
+              .catch((error) => { console.log(error); }); 
+          axios.get("http://localhost:3000/sections.json")
+              .then(response => {this.sections = response.data;})
+              .catch((error) => { console.log(error); }); 
+      }
+    });
+</script>
+</body>
+</html>

@@ -1,10 +1,4 @@
 
-
-<p>
-  <strong>Year:</strong>
-  <%= @section.year %>
-</p>
-
 <p>
   <strong>Course:</strong>
   <%= @section.course.number %>
@@ -29,11 +23,11 @@
 <p>
   <strong>Students:</strong>
 </p>
-<ul>
+<ol>
   <% @section.students.each do |student| %>
   <%= student.name %>
   <% end %>
-</ul>
+</ol>
 
 
 <%= link_to 'Edit', edit_section_path(@section) %> |

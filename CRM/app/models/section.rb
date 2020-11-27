@@ -20,6 +20,3 @@ class Section < ApplicationRecord
     end
 end
 
-
-# Section.create(course_id: 3205, professor_id: 4, year: 4, semester_id: "Spring").valid? # => true
-# Section.create(course_id: nil, professor_id: nil, year: nil, semester_id: nil).valid? # => false

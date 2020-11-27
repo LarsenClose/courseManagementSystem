@@ -37,6 +37,11 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.1, >= 1.2.0)
+    active_model_serializers (0.10.10)
+      actionpack (>= 4.1, < 6.1)
+      activemodel (>= 4.1, < 6.1)
+      case_transform (>= 0.2)
+      jsonapi-renderer (>= 0.1.1.beta1, < 0.3)
     activejob (6.0.3.3)
       activesupport (= 6.0.3.3)
       globalid (>= 0.3.6)
@@ -72,6 +77,8 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (~> 1.5)
       xpath (~> 3.2)
+    case_transform (0.2)
+      activesupport
     childprocess (3.0.0)
     choice (0.2.0)
     concurrent-ruby (1.1.7)
@@ -90,6 +97,7 @@ GEM
       concurrent-ruby (~> 1.0)
     jbuilder (2.10.1)
       activesupport (>= 5.0.0)
+    jsonapi-renderer (0.2.2)
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -171,6 +179,9 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
+    seed_dump (3.3.1)
+      activerecord (>= 4)
+      activesupport (>= 4)
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
@@ -220,6 +231,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_model_serializers (~> 0.10.0)
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
@@ -230,6 +242,7 @@ DEPENDENCIES
   rails (~> 6.0.3, >= 6.0.3.3)
   rails-erd
   sass-rails (>= 6)
+  seed_dump
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
