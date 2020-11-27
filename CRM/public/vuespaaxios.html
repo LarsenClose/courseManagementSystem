@@ -8,6 +8,7 @@
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="//unpkg.com/vue@latest/dist/vue.min.js"></script>
 <script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.js"></script>
+<script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue-icons.min.js"></script>
 </head>
 <title>A very simple SPA in Vue and Axios made into Spaghetti </title>
 <body>
@@ -22,25 +23,25 @@
     <button v-on:click="sections_selected=!sections_selected">Sections tab</button>
     <ul>
     <span v-if="professors_selected">
-        <strong>Professor's</strong>
+      <b-spinner type="border" small></b-spinner><strong>   Professors</strong>
             <div v-for="professor in professors">
                 <li> <b> Name: </b> {{ professor.name }}, <b>Office: </b> {{ professor.office }}</li>
             </div>
     </span>
     <span v-else-if="departments_selected">
-        <strong>Departments</strong>
+      <b-spinner type="border" small></b-spinner><strong>    Departments</strong>
             <div v-for="department in departments">
                 <li>{{ department.name }}</li>
             </div>
     </span>
     <span v-else-if="semesters_selected">
-        <strong>Semesters</strong>
+      <b-spinner type="border" small></b-spinner><strong>    Semesters</strong>
             <div v-for="semester in semesters">
                   <li> {{ semester.semester }}</li>
             </div>
     </span>
     <span v-else-if="courses_selected">
-        <strong>Courses</strong>
+      <b-spinner type="border" small></b-spinner><strong>    Courses</strong>
           <div v-for="course in courses">
               <li>
                 <b> 
@@ -67,9 +68,10 @@
       </span>
     </span>
     <span v-else-if="students_selected">
-        <strong>Students</strong>
+      <b-spinner type="border" small></b-spinner>    <strong>    Students</strong>
         <div v-for="student in students">
-            <li> <b>Name: </b>{{ student.name }}, <b>Number: </b> {{ student.number }}
+            <li>  <b>Name: </b>{{ student.name }} <br>
+                  <b>Number:</b> {{ student.number }} 
             <span v-if="student.sections">
                 <pre>
                     Section(s):
@@ -85,7 +87,7 @@
         </div>
     </span>
     <span v-else-if="sections_selected">
-        <strong>Sections</strong>
+      <b-spinner type="border" small></b-spinner>   <strong>   Sections</strong>
         <div v-for="section in sections">
           <li> <b>Number: </b> {{ section.section_number }}
               <br>
@@ -109,6 +111,7 @@
     </span>
     </ul>
   </div>
+
 
 
   <script type="text/javascript">
