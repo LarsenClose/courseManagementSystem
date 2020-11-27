@@ -1,111 +1,117 @@
-# Web Application Development
+# Larsen Close
 
-## Larsen Close
+   >lclose@msudenver.edu
 
-### Assignment 05
+## Web Application Development
 
-> Requirements
+### Dual API CRM utilizing .html and .json
 
-- [x] Integrate all elements into single page application with javascript
+> Completed
 
-- [ ] CRUD secondary priority
+- [x] Integrate all element gets into single page application with javascript
 
-1. My public html file is vuespaaxios.html, it's served at http://localhost:3000/vuespaaxios.html
-   - based off https://github.com/drsjb80/SPAs/blob/master/vueaxiosspa1toM.html
-2. .choices #4 ```rails db:drop; rails db:migrate; rails db:seed; rails server``` to run it
-3. db:seed should be good but there is also a backup ```/seedsDir/seeds.rb```
+> Todo's
+
+- [ ] CRUD finish out other functionality
+
+1. Public html file is [vuespaaxios.html](./CRM/public/vuespaaxios.html), served at: [http://localhost:3000/vuespaaxios.html](http://localhost:3000/vuespaaxios.html)
+   - based partially from: [https://github.com/drsjb80/SPAs/blob/master/vueaxiosspa1toM.html](https://github.com/drsjb80/SPAs/blob/master/vueaxiosspa1toM.html)
+2. .choices #4 `rails db:drop; rails db:migrate; rails db:seed; rails server`
+3. db:seed should be good but there is also a backup `/seedsDir/seeds.rb`
 
 - Rails 6.0.3.3
 - Ruby version 2.7.1
+- Yarn v1.22.5
 - package.json and Gemfile + Gemlock have the rest
+
+#### To access the SPA first create a user and login at: [http://localhost:3000/](`http://localhost:3000/)
+
+> Then access the single page application at [http://localhost:3000/vuespaaxios.html](http://localhost:3000/vuespaaxios.html)
+
+<img src="screenshotSPA.png">
 
 <img src="erd.svg">
 
-Used Migrations to fix the issue with redudndant ID's for sections and students. Also made simple non-rails celebration landing page. 
+> Current ERD with addition of the user Auth
+
+> Abbreviated seeds.rb
+
+```rails
 
 
-Current seed:db to test and explore search functionality:
+Professor.create!([
+  {name: "Dr. Keaten", office: "419"},
+   ...
+  {name: "Roger Penrose", office: "213"}
+])
+Department.create!([
+  {name: "CS"},
+   ...
+  {name: "Biology"}
+])
 
-``` rails
+Course.create!([
+  {department_id: 1, number: 2400, hours: 3},
+   ...
+  {department_id: 6, number: 4500, hours: 4}
+])
 
-Semester.create(semester: 'Spring')
-Semester.create(semester: 'Summer')
-Semester.create(semester: 'Fall')
+Student.create!([
+  {name: "Robin Hood", number: 956809},
+   ...
+  {name: "Summer Alexan", number: 900348}
+])
+Semester.create!([
+  {semester: "Spring"},
+   ...
+  {semester: "Winter"}
+])
+Section.create!([
+  {course_id: 1, professor_id: 2, year: 2019, semester_id: 3, section_number: 3451},
+   ...
+  {course_id: 3, professor_id: 4, year: 2020, semester_id: 2, section_number: 2232}
+])
 
-Department.create(name: 'CS')
-Department.create(name: 'Math')
-Department.create(name: 'Physics')
-Department.create(name: 'Philosophy')
-Department.create(name: 'Astronomy')
-
-Professor.create(name: 'Dr. Keaten', office:'419')
-Professor.create(name: 'Dr. Powell', office:'486')
-Professor.create(name: 'Elizabeth Aster', office:'439')
-Professor.create(name: 'Fredrick Douglass', office:'318')
-Professor.create(name: 'Dr. Eliasa', office:'364')
-
-
-Course.create(department_id: 1, number: 3710, hours: 4)
-Course.create(department_id: 3, number: 2400, hours: 3)
-Course.create(department_id: 2, number: 4500, hours: 4)
-
-Course.create(department_id: 1, number: 3710, hours: 4)
-Course.create(department_id: 3, number: 2400, hours: 3)
-Course.create(department_id: 2, number: 4500, hours: 4)
-
-
-Section.create(course_id: 1, section_number: 02, professor_id: 1, year: 2019, semester_id: 1)
-Section.create(course_id: 1, section_number: 01, professor_id: 3, year: 2019, semester_id: 1)
-
-Section.create(course_id: 2, section_number: 01, professor_id: 2, year: 2019, semester_id: 1)
-Section.create(course_id: 2, section_number: 02, professor_id: 4, year: 2019, semester_id: 1)
-
-Section.create(course_id: 3, section_number: 01, professor_id: 2, year: 2019, semester_id: 1)
-Section.create(course_id: 3, section_number: 02, professor_id: 4, year: 2019, semester_id: 1)
-
-
-Student.create(name: 'Robin Hood', number: 956809)
-Student.create(name: 'Erik Eaten', number: 956223)
-Student.create(name: 'Sarah Goodwill', number: 908416)
-Student.create(name: 'Jennifer Maxwell', number: 903265)
-Student.create(name: 'Roger Smith', number: 923658)
-Student.create(name: 'Erica Klien', number: 93658)
+SectionsStudents.create!([
+  {section_id: 6, student_id: 7},
+  ...
+  {section_id: 9, student_id: 1}
+])
 ```
 
-Build wise I used:
+The commands generating my active migration:
 
-``` bash
+```bash
 rails generate scaffold Department name:string;
 rails generate scaffold Professor name:string office:string;
 rails generate scaffold Course number:integer hours:integer;
 rails generate scaffold Student name:string number:integer;
 rails generate scaffold Section year:integer;
-rails generate model SectionsStudents section:references student:references --force-plural;
 rails generate scaffold Semester semester:string;
-rails generate migration CreateJoinTableSectionStudent section student
+rails generate scaffold SectionsStudents section:references student:references --force-plural --force
+rails db:migrate
 ```
 
-> added an extra column to sections to indicate which section number of a class
+> oh also I added an extra column to sections to indicate which section number of a class
 
-Not using rubymine so I:
+To generate the erd:
 
 1. installed graphviz
 2. installed graphviz-rubymine
-3. Added ```gem 'rails-erd'``` to :development in the gemfile
-4. Reran ```bundle install```
-5. Created and customized a configuration file ```.erdconfig```
-6. Ran ```bundle exec erd```
+3. Added `gem 'rails-erd'` to :development in the gemfile
+4. Reran `bundle install`
+5. Created and customized a configuration file `.erdconfig`
+6. Ran `bundle exec erd`
 
-#### TODO's archive
+#### TODO's archive and backlog
 
 1. Currently the multipage web app seems to be functioning well. Login at the index page (127.0.0.1:3000 on development server)
 2. The js app in progress but can be accessed at 127.0.0.1:3000/vuespa.html
-3. If weird things happen with the data base ```rails db:drop; rails db:migrate; rails db:seed; rails server```
+3. If weird things happen with the data base `rails db:drop; rails db:migrate; rails db:seed; rails server`
 4. Gem seed_dump did work for me on rails 6 with a few changes to the object before being able to reload it
 
-
 - [x] Complete validations
-- [X] Bug in gui creation of a course, not recognizing existing state of department
+- [x] Bug in gui creation of a course, not recognizing existing state of department
 - [ ] Autocomplete functionality
 - [x] Add to seeds verbosity for trying search cases
 
